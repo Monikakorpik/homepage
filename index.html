@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona internetowa</title>
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/article.css" rel="stylesheet">
+    <link href="CSS/form.css" rel="stylesheet">
+    <link href="CSS/container.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+
+<body class="body">
+
+
+    <header class="header">Witaj na pierwszej stronie internetowej Moniki Korpik.</header>
+    <p nav class="navigation">
+        <a class="navigation__link" href="#JakSpełniaćMarzenia">Jak spełniać marzenia</a>
+        <a class="navigation__link" href="#Cel"> Cel</a>
+        <a class="navigation__link" href="#Zainteresowania">Zainteresowania</a>
+        <a class="navigation__link" href="#PlikDoPobrania">Plik do pobrania</a>
+    </p>
+    <article class="article">
+        <h1 class="article__header">
+            <p class="naglowek">Monika Korpik</p></h1>
+
+        <p class="border">
+            <img width="250" height="300" src="https://i.postimg.cc/mk8CpKdB/Monika-Korpik.jpg" alt="Monika Korpik">
+  </p>
+
+    </article>
+    <article class="article">
+        <section id="JakSpełniaćMarzenia">
+            <h2 class="section__header">Jak spełniać marzenia </h2>
+           
+            <p class="section__paragraph">Witam wszystkich, nazywam się Monika Kopik. Jestem żoną i matką cudownej
+                dwójki dzieci.
+                Z wykształcenia inżynier rolnictwa, z zawodu pracownik biurowy, który dziś chce wszystkim udowodnić, że
+                posiadając tylko 1.5 h czasu dziennie na naukę można skończyć kurs na <span class="ciekawyElment">junior
+                    frontend developera.</span>
+            </p>
+            <strong class="article__strong">Jeszcze wszyscy będą mi zazdrościć efektów
+                oraz znalezionej pracy</strong>
+        </section>
+    </article>
+    <article class="article">
+        <section id="Cel">
+            <h3 class="section__header"><em>CEL=Nie można</em> się poddawać</h3>
+
+            <p class="section__paragraph">Mam nadzieję, że swoim postępowaniem zachęcę inne mamy do takiego samorozwoju
+                kariery zawodowej.</p>
+        </section>
+    </article>
+    <article class="article">
+        <section id="Zainteresowania">
+
+            <h4 class="section__header">Zainteresowania</h4>
+
+            <p class="section__paragraph">musisz wiedzieć, że bardzo interesuję się modą, lubię tworzyć ciekawe
+                stylizacje</p>
+
+            <p class="section__paragraph">Jeśli masz ochotę zobacz </p>
+            <a class="link" rel="noreferrer noopener" href="https://www.vinted.pl/" title="strona Vinted">gdzie
+                wyszukuje
+                perełki pośród
+                ubrań(otwiera się w nowej karcie)</a>
+
+
+
+
+            <div class="container">
+                <table class="table">
+                    <caption class="caption">Rzeczy do kupienia na sezon wiosna/lato 2023
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="col">Produkt</th>
+                        <th class="table__cell table__header" scope="col">Do kupienia</th>
+                        <th class="table__cell table__header" scope="col">Mam z zeszłego sezonu</th>
+                        <th class="table__cell table__header" scope="col">Sklep/Internet</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">Kardigan</th>
+                        <td class="table__cell">tak</td>
+                        <td class="table__cell">nie</td>
+                        <td class="table__cell">internet</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">buty wiosenne</th>
+                        <td class="table__cell">tak</td>
+                        <td class="table__cell">nie</td>
+                        <td class="table__cell">sklep</td>
+
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">koszule</th>
+                        <td class="table__cell">nie</td>
+                        <td class="table__cell">tak</td>
+                        <td class="table__cell">-</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">t-shirty</th>
+                        <td class="table__cell">nie</td>
+                        <td class="table__cell">tak</td>
+                        <td class="table__cell">-</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">krótkie spodenki</th>
+                        <td class="table__cell">tak</td>
+                        <td class="table__cell">nie</td>
+                        <td class="table__cell">internet</td>
+                        </caption>
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+    </article>
+
+
+
+    <article class="article">
+        <section id="PlikDoPobrania">
+
+            <a href="MonikaKorpik.jpg" download="Monika jpg">Tu pobierzesz moje zdjęcie</a>
+        </section>
+    </article>
+    <article class="article">
+        <p class="section__paragraph">Jeśli masz ochote, możesz zmienić kolor motywu poniższym
+            przyciskiem</p>
+        <button class="changeBackgroundcolorButton"> Włącz <span class="themeName">zielony</span> motyw</button>
+    </article>
+
+
+    <footer class="footer"> Made by Monika Korpik</footer>
+</body>
+
+</html>
