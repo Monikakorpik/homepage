@@ -7,3 +7,5 @@
 I present to you my first website, which I made thanks to the course on youcode.pl . The page is a short description of me. I invite you to familiarize yourself with it.
 
 https://monikakorpik.github.io/homepage/
+
+
